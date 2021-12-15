@@ -1,4 +1,4 @@
-# arduino-data-visualization
+# Arduino-Data-Visualization
 
 This project takes 200 data inputs over time from an Arduino Uno (connected to a Sensor Base Kit) and provides Descriptive Statistics and Visualizations on the different types of environmental factors (Pressure, Altitude, Light, Sound, Temperature, and Humidity. It is a Jupyter Notebook (.ipynb) file and shows the steps that I went through to collect and analyze / visualize the data. The notebook is broken up into two parts: Part A - Data Collection and Part B - Data Analysis and Visualization.
 
