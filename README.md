@@ -7,7 +7,7 @@ This project takes 200 data inputs over time from an Arduino Uno (connected to a
 
 Part 2 - Real Time Data Plotting:
 Has two files needed: Arduino_Real_Time_Data_Plotting.py and Light_Sensor_Test.ino
-For this projext, I worked with the Arduino UNO and the light sensor on the Arduino SensorKit. I decided to use the light sensor as the data can vary drastically in a controlled environment, as lights can be turned on and off. This program uses the matplotlib.pyplot.ino() function to plot data in real time until the user decides to stop the code from running.
+For this project, I worked with the Arduino UNO and the light sensor on the Arduino SensorKit. I decided to use the light sensor as the data can vary drastically in a controlled environment, as lights can be turned on and off. This program uses the matplotlib.pyplot.ino() function to plot data in real time until the user decides to stop the code from running.
 
 ## Table of contents
 * [General info](#general-info)
