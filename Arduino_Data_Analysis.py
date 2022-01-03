@@ -35,8 +35,8 @@ def run(num, secs):
     """Runs the collect_data function a certain number with a pause time given by user
 
     Arguments:
-    num -- number of times you want to collect a data value for each data category
-    secs -- number of seconds that are paused between each data collection
+    num -- Number of times you want to collect a data value for each data category
+    secs -- Number of seconds that are paused between each data collection
     """
     # Initializing the lists for data collection
     print("Starting Data Collection: ")
