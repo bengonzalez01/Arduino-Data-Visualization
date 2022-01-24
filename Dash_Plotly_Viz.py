@@ -74,3 +74,4 @@ def run(num, secs):
     print(f"Collected {len(times)} Data Points")
     data = [pressures, altitudes, lights, sounds, temps, hums, times]
     return data
+
