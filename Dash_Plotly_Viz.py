@@ -41,5 +41,20 @@ app.layout = html.Div([
 
 ])
 
+# connect plotly with Dash
+@app.callback(
+    [Output(component_id='output_container', component_property='children'),
+    Output(component_id='environmental_values', component_property='figure')],
+    Input(component_id='Select Data Type', component_property='value')
+)
+
+def update_graph(user_option):
+
+    container = f"The data type chosen by the user is {user_option}"
+    
+    fig = px.line(df, x = "DateTime", y = user_option)
+
+    return container, fig
+
 if __name__ == '__main__':
     app.run_server(debug=True)
