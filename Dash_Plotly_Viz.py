@@ -50,7 +50,7 @@ app.layout = html.Div([
 
 def update_graph(user_option):
 
-    container = f"The data type chosen by the user is {user_option}"
+    container = f"The data type chosen by the user is: {user_option}"
     
     fig = px.line(df, x = "DateTime", y = user_option)
 
