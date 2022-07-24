@@ -1,5 +1,5 @@
 # Arduino Data Visualization
-This repository shows my experience collecting, analyzing, and visualizing data from an Arduino using Python. It is broken up into three parts.
+**This repository shows my experience collecting, analyzing, and visualizing data from an Arduino using Python. It is broken up into three parts.**
 
 Part 1 - Data Collection and Visualization:
 Has two files needed: Arduino_Data_Collection_and_Basic_Visualization.ipynb and Sensors_Data_Ouput.ino
